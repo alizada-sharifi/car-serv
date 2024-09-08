@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Barlow;
+  src: url("../fonts/Barlow-Regular.ttf");
+}
+body {
+  font-size: 16px;
+  font-family: Barlow, sans-serif;
+}
+.header {
+  background: #f2f2f2 !important;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 992px) {
+  .header-info {
+    display: none;
+  }
+}
+.read-more:hover {
+  background-color: #b8101f !important;
+  cursor: pointer;
+}
+.experience {
+  background: rgba(0, 0, 0, 0.08);
+  width: 230px;
+  top: -20px !important;
+  right: 20px !important;
+}
+.number {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/carousel-bg-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+  z-index: 10;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .car {
+    display: none;
+  }
+}
+nav-item {
+  color: #000 !important;
+}
+.nav-item:hover {
+  color: #b8101f;
+}
+.hover:hover {
+  color: #b8101f;
+}
+@media screen and (max-width: 992px) {
+  .get {
+    display: none;
+  }
+}
+.booking {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../image/carousel-bg-2.jpg) center center no-repeat;
+  background-size: cover;
+}
+.submit-button {
+  background: #0b2154;
+  width: 100%;
+}
+.team-member {
+  opacity: 0;
+}
+.team-member:hover {
+  opacity: 1;
+}
+.team-icon:hover {
+  background-color: #0b2154 !important;
+  color: #fff !important;
+}
+.t-img {
+  border-radius: 50%;
+  border: 8px solid #e4e1e1;
+}
+div.social-link a i:hover {
+  background-color: #fff;
+  color: rgb(228, 148, 1);
+}
+.serv-item span {
+  transition: all 0.5s;
+}
+.serv-item span:hover {
+  letter-spacing: 2px;
+}
+.sign {
+  right: 10px;
+  top: 10px;
+}
+.slider {
+  position: fixed !important;
+  bottom: 10px;
+  right: 20px;
+}
+.service-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/carousel-bg-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #b8101f;
+}
