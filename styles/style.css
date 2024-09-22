@@ -124,3 +124,7 @@ div.social-link a i:hover {
 .dropdown-item:hover {
   background-color: #b8101f;
 }
+.send:hover {
+  background-color: #0f2b6a !important;
+  transition: all 0.5s;
+}
